@@ -1,8 +1,7 @@
 def calc_tax(annual_income):
     annual_income -= 124000
     if(annual_income <= 92000):
-        tax = 0
-        return tax
+        return 0
     
 
     elif(annual_income > 0 and annual_income <= 560000): # 5%
