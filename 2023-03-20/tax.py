@@ -1,6 +1,6 @@
 def calc_tax(annual_income):
-    annual_income -= 124000
-    if(annual_income <= 92000):
+    annual_income -= (124000 + 92000)
+    if(annual_income < 0):
         return 0
     
 
